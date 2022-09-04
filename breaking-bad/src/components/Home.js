@@ -22,13 +22,17 @@ export default function Home() {
   return (
     <div>
       <form onSubmit={formEvent}>
-        <input
-          type="text"
-          placeholder="enter your favourite charchter"
-          onChange={inputa}
-          value={query}
-        />
-        <button>submit</button>
+        <div class="searchbox-wrap">
+          <input
+            type="text"
+            placeholder="Search for charachter..."
+            onChange={inputa}
+            value={query}
+          />
+          <button>
+            <span>Send</span>{" "}
+          </button>
+        </div>
       </form>
       {item.map((items) => {
         return (

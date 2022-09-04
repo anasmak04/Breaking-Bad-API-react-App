@@ -1,7 +1,54 @@
-img{
-    width: 120px;
+img {
+  width: 120px;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  padding: 12px;
+  color: white;
+}
+
+* {
+  outline: none;
+}
+
+body {
+  background-color: #607d8b;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+button{
+    height: 44px;
+    width: 90px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+    border: none;
+}
+
+
+input:focus{
+    outline: none;
 }
